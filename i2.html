@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niral</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+
+    
+</head>
+
+<body>
+    <center>
+    <button id="fst">
+     Start
+    </button>
+    <button id="mdl">Middle</button>
+    <button id="lst">Last
+
+    </button>
+    <img src="niral.jpg" alt="">
+</center>
+
+<script>
+
+    $(document).ready(function () {
+        $("#fst").click(function () {
+            $("img").animate({ left: '0px' });
+
+        });
+        $("#mdl").click(function () {
+            $("img").animate({ left: '40%' });
+        });
+
+        $("#lst").click(function () {
+            $("img").animate({ left: '70%' });
+        });
+
+    });
+  
+</script>
+</body>
+
+
+
+</html>
