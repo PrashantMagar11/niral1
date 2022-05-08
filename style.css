@@ -14,6 +14,10 @@
             position: absolute;
             margin-top: 40px;
         }
+ #myImage{
+         margin-top: 300px;
+        
+       }
 
         @media (max-width:600px){
           img{
